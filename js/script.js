@@ -2,7 +2,7 @@ const BASEURL = "https://pokeapi.co/api/v2/pokemon/"
 
 //chamar a lista de poekmons
     let listaPokemons = []
-    fetch(BASEURL + '?limit=1292').then( Response => {
+    fetch(BASEURL + '?limit=251').then( Response => {
         if (Response.status == 200){
             listaPokemons = Response.json().then( json => {json.results.map( pokemon => { 
                 let liPokemon = document.createElement("li")
