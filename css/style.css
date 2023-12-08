@@ -1,0 +1,81 @@
+body{
+    background: #424242
+}   
+
+#ListaPokemonsDiv{
+    /* display: flex   ; */
+}
+
+.pokemons{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 10%;
+    padding: 1.53%;
+    background-color: aliceblue;
+    margin: 1%;
+    border-radius: 11%;
+    font-family: "Flexo-Bold",arial,sans-serif;
+    font-size: 95%;
+}
+
+#ListaPokemons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#getByIDinput{
+    border-radius: 11px;
+    padding: 1.5%;
+    width: 6%;
+    height: 15px;
+    margin-top: 1%;
+    margin-left: 8.5%;
+    font-size: 90%;
+}
+
+#buscaIDdiv{
+    display: flex;
+    align-items: flex-end;
+}
+#bttBuscar{
+    padding: 1%;
+    border-radius: 7px;
+    height: 47px;
+    width: 7%;
+    margin-left: 1%;
+    transition: transform 0.2s ease-in-out;
+}
+
+#bttBuscar:hover{
+    transform: scale(1.07);
+}
+
+#footer{
+    background-color: rgb(175, 178, 180);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    font-family: "Flexo-Bold",arial,sans-serif;
+    font-size: 95%;
+}
+
+#pokemonInfo{
+    background-color: aliceblue;
+    width: 18%;
+    border-radius: 21px;
+    display: grid;
+    align-content: space-evenly;
+}
+
+.pokeIdInfo{
+    margin: 0%;
+}
+
+#pokemonImage{
+    width: 111px;
+}
